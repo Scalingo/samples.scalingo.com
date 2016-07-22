@@ -3,17 +3,11 @@ layout: default
 title: Samples
 date: 2015-09-09 00:00:00
 ---
-<style>
-.demo-list-three {
-  width: 500px;
-}
-</style>
-
 <h1>
   Samples
 </h1>
 
-<ul class='samples-list mdl-list demo-list-three'>
+<ul class='samples-list mdl-list list-three'>
 {% for sample in site.data.samples %}
   {% assign body = sample.content | xml_escape | strip_html | strip_newlines | remove:' ' %}
   <li class="sample-item mdl-list__item mdl-list__item--three-line">
