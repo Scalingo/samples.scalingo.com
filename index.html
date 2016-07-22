@@ -1,36 +1,50 @@
 ---
 layout: default
-title: Changelog
+title: Samples
 date: 2015-09-09 00:00:00
 ---
+<style>
+.demo-list-three {
+  width: 500px;
+}
+</style>
 
 <h1>
-  Changelog
-  <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss feed"></i></a>
+  Samples
 </h1>
 
-{% for post in site.posts %}
-  {% assign body = post.content | xml_escape | strip_html | strip_newlines | remove:' ' %}
-  <div class="content mdl-grid">
-    <div class="mdl-cell mdl-cell--2-col">{{ post.date | date: "%b %-d, %Y" }}</div>
-    <div class="mdl-cell mdl-cell--2-col">{{ post.categories | first | split: "_" | join: " " }}</div>
-    <div class="post_content mdl-cell mdl-cell--8-col">
-    {{ post.title }}
-    {% if body != "" %}
-      <a href="#" class="more">more</a>
-    {% endif %}
-    {% if post.github %}
-      <a target="_blank" href="{{ post.github }}"><i class="icon icon--github">{% include github_svg.html %}</i></a>
-    {% endif %}
-    </div>
-  </div>
-  {% if body != "" %}
-  <div class="content mdl-grid hidden">
-    <div class="mdl-cell mdl-cell--2-col"></div>
-    <div class="mdl-cell mdl-cell--2-col"></div>
-    <div class="post_content full mdl-cell mdl-cell--8-col">
-      {{ post.content }}
-    </div>
-  </div>
-  {% endif %}
+<ul class='samples-list mdl-list demo-list-three'>
+{% for sample in site.data.samples %}
+  {% assign body = sample.content | xml_escape | strip_html | strip_newlines | remove:' ' %}
+  <li class="sample-item mdl-list__item mdl-list__item--three-line">
+    <span class="mdl-list__item-primary-content">
+      <img class="logo mdl-list__item-avatar" src="{{ sample.logo }}"/>
+      <span>
+        {{ sample.language }}
+        {% if sample.framework != "" %}
+          / {{sample.framework}}
+        {% endif %}
+        app
+      </span>
+      <span class="mdl-list__item-text-body">
+        <a id="{{'github-' | append:sample.language | append:sample.framework}}" class="mdl-list__item-secondary-action" target="_blank"
+          href="{{sample.github_url}}">
+          <img style="margin-bottom: 14px" src="/assets/images/mark-github.svg" width="18px" alt="" />
+          <!-- <i class="icon icon-github">{% include github_svg.html %}</i> -->
+        </a>
+        <div class="mdl-tooltip" for="{{'github-' | append:sample.language | append:sample.framework}}">View code</div>
+        <a id="{{'app-' | append:sample.language | append:sample.framework}}" class="mdl-list__item-secondary-action" target="_blank"
+          href="{{sample.app_url}}">
+          <i class="material-icons">link</i>
+        </a>
+        <div class="mdl-tooltip" for="{{'app-' | append:sample.language | append:sample.framework}}">View app</div>
+      </span>
+    </span>
+    <span class="mdl-list__item-secondary-content">
+      <a href="https://my.scalingo.com/deploy?source={{sample.github_url}}">
+        <img src="https://cdn.scalingo.com/deploy/button.svg" alt="Deploy on Scalingo" data-canonical-src="https://cdn.scalingo.com/deploy/button.svg" style="max-width:100%;">
+      </a>
+    </span>
+  </li>
 {% endfor %}
+</ul>

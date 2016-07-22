@@ -1,0 +1,149 @@
+[
+  {
+    "language": "Ruby",
+    "framework": "Sinatra",
+    "logo": "https://cdn.scalingo.com/homepage/assets/technologies/svg/ruby-85779959327de14f801ee56cd5615036.svg",
+    "app_url": "https://sample-ruby-sinatra.scalingo.io",
+    "github_url": "https://github.com/Scalingo/sample-ruby-sinatra"
+  },
+  {
+    "language": "Go",
+    "framework": "Martini",
+    "logo": "https://cdn.scalingo.com/homepage/assets/technologies/svg/go-a78048185ba0bb51a32ebf314de03e46.svg",
+    "app_url": "https://sample-go-martini.scalingo.io",
+    "github_url": "https://github.com/Scalingo/sample-go-martini"
+  },
+  {
+    "language": "JS",
+    "framework": "Meteor",
+    "logo": "https://cdn.scalingo.com/documentation/technologies/meteor-logo.svg",
+    "app_url": "https://sample-meteor-todo.scalingo.io",
+    "github_url": "https://github.com/Scalingo/sample-meteor-todo"
+  },
+  {
+    "language": "Meteor",
+    "framework": "PhantomJS",
+    "logo": "https://cdn.scalingo.com/documentation/technologies/meteor-logo.svg",
+    "app_url": "https://sample-meteor-phantomjs.scalingo.io",
+    "github_url": "https://github.com/Scalingo/sample-meteor-phantomjs"
+  },
+  {
+    "language": "Meteor",
+    "framework": "Email",
+    "logo": "https://cdn.scalingo.com/documentation/technologies/meteor-logo.svg",
+    "app_url": "https://sample-meteor-email.scalingo.io",
+    "github_url": "https://github.com/Scalingo/sample-meteor-email"
+  },
+  {
+    "language": "NodeJS",
+    "framework": "Express",
+    "logo": "https://cdn.scalingo.com/documentation/technologies/nodejs-logo.svg",
+    "app_url": "https://sample-node-express.scalingo.io",
+    "github_url": "https://github.com/Scalingo/sample-node-express"
+  },
+  {
+    "language": "NodeJS",
+    "framework": "MeanJS",
+    "logo": "https://cdn.scalingo.com/documentation/technologies/meanjs-logo.png",
+    "app_url": "https://sample-node-meanjs.scalingo.io",
+    "github_url": "https://github.com/Scalingo/sample-node-meanjs"
+  },
+  {
+    "language": "Scala",
+    "framework": "Scalatra",
+    "logo": "https://cdn.scalingo.com/homepage/assets/technologies/svg/scala-0a622589bdf382bf3f277840a2561588.svg",
+    "app_url": "https://sample-scala-scalatra.scalingo.io",
+    "github_url": "https://github.com/Scalingo/sample-scala-scalatra"
+  },
+  {
+    "language": "PHP",
+    "framework": "Laravel",
+    "logo": "https://cdn.scalingo.com/homepage/assets/technologies/svg/php-laravel-d7b34b32c2b836fedcce6f045f254300.svg",
+    "app_url": "https://sample-php-laravel.scalingo.io",
+    "github_url": "https://github.com/Scalingo/sample-php-laravel"
+  },
+  {
+    "language": "PHP",
+    "framework": "Symfony",
+    "logo": "https://cdn.scalingo.com/homepage/assets/technologies/svg/php-symfony-c0fa605fa534e5e7b5baac36f2e6a991.svg",
+    "app_url": "https://sample-php-symfony.scalingo.io",
+    "github_url": "https://github.com/Scalingo/sample-php-symfony"
+  },
+  {
+    "language": "PHP",
+    "framework": "Lumen",
+    "logo": "https://cdn.scalingo.com/homepage/assets/technologies/svg/php-lumen-47db7d0bce52c48811453bfb1c6665ac.svg",
+    "app_url": "https://sample-php-lumen.scalingo.io",
+    "github_url": "https://github.com/Scalingo/sample-php-lumen"
+  },
+  {
+    "language": "PHP",
+    "framework": "",
+    "logo": "https://cdn.scalingo.com/homepage/assets/technologies/svg/php-b92fb71dac9e50083f27b0b602441247.svg",
+    "app_url": "https://sample-php-base.scalingo.io",
+    "github_url": "https://github.com/Scalingo/sample-php-base"
+  },
+  {
+    "language": "PHP",
+    "framework": "Cron",
+    "logo": "https://cdn.scalingo.com/homepage/assets/technologies/svg/php-b92fb71dac9e50083f27b0b602441247.svg",
+    "app_url": "https://sample-php-cron.scalingo.io",
+    "github_url": "https://github.com/Scalingo/sample-php-cron"
+  },
+  {
+    "language": "PHP",
+    "framework": "NodeJS",
+    "logo": "https://cdn.scalingo.com/homepage/assets/technologies/svg/php-b92fb71dac9e50083f27b0b602441247.svg",
+    "app_url": "https://sample-php-nodejs.scalingo.io",
+    "github_url": "https://github.com/Scalingo/sample-php-nodejs"
+  },
+  {
+    "language": "PHP",
+    "framework": "Yii 2",
+    "logo": "https://cdn.scalingo.com/documentation/technologies/yii-logo.svg",
+    "app_url": "https://sample-php-yii2.scalingo.io",
+    "github_url": "https://github.com/Scalingo/sample-php-yii2"
+  },
+  {
+    "language": "PHP",
+    "framework": "Slim",
+    "logo": "https://cdn.scalingo.com/homepage/assets/technologies/png/php-slim-0c8c82f8959bc919051a6a80ec7d476f.png",
+    "app_url": "https://sample-php-slim.scalingo.io",
+    "github_url": "https://github.com/Scalingo/sample-php-slim"
+  },
+  {
+    "language": "Python",
+    "framework": "Celery",
+    "logo": "https://cdn.scalingo.com/documentation/technologies/python-logo.svg",
+    "app_url": "https://sample-python-celery.scalingo.io",
+    "github_url": "https://github.com/Scalingo/sample-python-celery"
+  },
+  {
+    "language": "Python",
+    "framework": "Flask",
+    "logo": "https://cdn.scalingo.com/documentation/technologies/flask-logo.svg",
+    "app_url": "https://sample-python-flask.scalingo.io",
+    "github_url": "https://github.com/Scalingo/sample-python-flask"
+  },
+  {
+    "language": "Python 2",
+    "framework": "Flask",
+    "logo": "https://cdn.scalingo.com/documentation/technologies/flask-logo.svg",
+    "app_url": "https://sample-python2-flask.scalingo.io",
+    "github_url": "https://github.com/Scalingo/sample-python2-flask"
+  },
+  {
+    "language": "Crystal",
+    "framework": "",
+    "logo": "https://cdn.scalingo.com/documentation/technologies/crystal-logo.png",
+    "app_url": "https://sample-crystal.scalingo.io",
+    "github_url": "https://github.com/Scalingo/sample-crystal-web"
+  },
+  {
+    "language": "Java",
+    "framework": "Spark",
+    "logo": "https://cdn.scalingo.com/homepage/assets/technologies/svg/java-spark-26ea1339345984468e7564a796bb4de3.svg",
+    "app_url": "https://sample-java-spark.scalingo.io",
+    "github_url": "https://github.com/Scalingo/sample-java-spark"
+  },
+]
