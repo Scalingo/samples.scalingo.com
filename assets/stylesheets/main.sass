@@ -100,7 +100,10 @@ h1
   margin: 0 auto
 .sample-item
   a
-    color: transparent
+    color: inherit
+    text-decoration: none
+    &:hover
+      text-decoration: underline
   .mdl-list__item-secondary-action
     cursor: pointer
   .material-icons

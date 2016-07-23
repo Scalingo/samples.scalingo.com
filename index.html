@@ -7,36 +7,14 @@ date: 2015-09-09 00:00:00
   Samples
 </h1>
 
-<ul class='samples-list mdl-list list-three'>
+<ul class='samples-list mdl-list'>
 {% for sample in site.data.samples %}
   {% assign body = sample.content | xml_escape | strip_html | strip_newlines | remove:' ' %}
-  <li class="sample-item mdl-list__item mdl-list__item--three-line">
+  <li class="sample-item mdl-list__item">
     <span class="mdl-list__item-primary-content">
       <img class="logo mdl-list__item-avatar" src="{{ sample.logo }}"/>
-      <span>
-        {{ sample.language }}
-        {% if sample.framework != "" %}
-          / {{sample.framework}}
-        {% endif %}
-        app
-      </span>
-      <span class="mdl-list__item-text-body">
-        <a id="{{'github-' | append:sample.language | append:sample.framework}}" class="mdl-list__item-secondary-action" target="_blank"
-          href="{{sample.github_url}}">
-          <img style="margin-bottom: 14px" src="/assets/images/mark-github.svg" width="18px" alt="" />
-          <!-- <i class="icon icon-github">{% include github_svg.html %}</i> -->
-        </a>
-        <div class="mdl-tooltip" for="{{'github-' | append:sample.language | append:sample.framework}}">View code</div>
-        <a id="{{'app-' | append:sample.language | append:sample.framework}}" class="mdl-list__item-secondary-action" target="_blank"
-          href="{{sample.app_url}}">
-          <i class="material-icons">link</i>
-        </a>
-        <div class="mdl-tooltip" for="{{'app-' | append:sample.language | append:sample.framework}}">View app</div>
-      </span>
-    </span>
-    <span class="mdl-list__item-secondary-content">
-      <a href="https://my.scalingo.com/deploy?source={{sample.github_url}}">
-        <img src="https://cdn.scalingo.com/deploy/button.svg" alt="Deploy on Scalingo" data-canonical-src="https://cdn.scalingo.com/deploy/button.svg" style="max-width:100%;">
+      <a href="{{sample.app_url}}">
+        {{ sample.language }}{% if sample.framework != "" %}/{{sample.framework}}{% endif %}
       </a>
     </span>
   </li>
