@@ -28,13 +28,6 @@
     "github_url": "https://github.com/Scalingo/sample-meteor-phantomjs"
   },
   {
-    "language": "Meteor",
-    "framework": "Email",
-    "logo": "https://cdn.scalingo.com/documentation/technologies/meteor-logo.svg",
-    "app_url": "https://sample-meteor-email.scalingo.io",
-    "github_url": "https://github.com/Scalingo/sample-meteor-email"
-  },
-  {
     "language": "NodeJS",
     "framework": "Express",
     "logo": "https://cdn.scalingo.com/documentation/technologies/nodejs-logo.svg",
