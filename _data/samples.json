@@ -140,6 +140,13 @@
     "github_url": "https://github.com/Scalingo/sample-java-spark"
   },
   {
+    "language": "Go",
+    "framework": "InfluxDB",
+    "logo": "https://cdn.scalingo.com/addons/Scalingo_Influx_20160624151600.svg",
+    "app_url": "https://sample-influxdb.scalingo.io",
+    "github_url": "https://github.com/Scalingo/sample-influxdb"
+  },
+  {
     "language": "Java",
     "framework": "Grails 3",
     "logo": "https://cdn.scalingo.com/documentation/technologies/grails-logo.svg",
