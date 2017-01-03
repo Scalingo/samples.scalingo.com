@@ -146,4 +146,11 @@
     "app_url": "https://sample-influxdb.scalingo.io",
     "github_url": "https://github.com/Scalingo/sample-influxdb"
   },
+  {
+    "language": "Java",
+    "framework": "Grails 3",
+    "logo": "https://cdn.scalingo.com/documentation/technologies/grails-logo.svg",
+    "app_url": "https://sample-java-grails3.scalingo.io",
+    "github_url": "https://github.com/Scalingo/sample-java-grails3"
+  }
 ]
