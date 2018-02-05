@@ -136,7 +136,7 @@
     "language": "Java",
     "framework": "Spark",
     "logo": "https://cdn.scalingo.com/homepage/assets/technologies/svg/java-spark-26ea1339345984468e7564a796bb4de3.svg",
-    "app_url": "https://sample-java-spark.scalingo.io",
+    "app_url": "https://sample-java-spark.scalingo.io/hello",
     "github_url": "https://github.com/Scalingo/sample-java-spark"
   },
   {
