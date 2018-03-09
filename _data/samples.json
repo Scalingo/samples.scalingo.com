@@ -21,6 +21,13 @@
     "github_url": "https://github.com/Scalingo/sample-meteor-todo"
   },
   {
+    "language": "JS",
+    "framework": "Meteor",
+    "logo": "https://cdn.scalingo.com/documentation/technologies/meteor-logo.svg",
+    "app_url": "https://sample-meteor.scalingo.io",
+    "github_url": "https://github.com/Scalingo/sample-meteor"
+  },
+  {
     "language": "NodeJS",
     "framework": "Express",
     "logo": "https://cdn.scalingo.com/documentation/technologies/nodejs-logo.svg",
