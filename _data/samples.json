@@ -35,6 +35,13 @@
     "github_url": "https://github.com/Scalingo/sample-node-meanjs"
   },
   {
+    "language": "Node.js",
+    "framework": "MQTT",
+    "logo": "https://cdn.scalingo.com/documentation/technologies/nodejs-logo.svg",
+    "app_url": "https://sample-node-mosca.scalingo.io",
+    "github_url": "https://github.com/Scalingo/sample-node-mosca"
+  },
+  {
     "language": "Scala",
     "framework": "Scalatra",
     "logo": "https://cdn.scalingo.com/homepage/assets/technologies/svg/scala-0a622589bdf382bf3f277840a2561588.svg",
