@@ -21,14 +21,14 @@
     "github_url": "https://github.com/Scalingo/sample-meteor-todo"
   },
   {
-    "language": "NodeJS",
+    "language": "Node.js",
     "framework": "Express",
     "logo": "https://cdn.scalingo.com/documentation/technologies/nodejs-logo.svg",
     "app_url": "https://sample-node-express.scalingo.io",
     "github_url": "https://github.com/Scalingo/sample-node-express"
   },
   {
-    "language": "NodeJS",
+    "language": "Node.js",
     "framework": "MeanJS",
     "logo": "https://cdn.scalingo.com/documentation/technologies/meanjs-logo.png",
     "app_url": "https://sample-node-meanjs.scalingo.io",
@@ -78,7 +78,7 @@
   },
   {
     "language": "PHP",
-    "framework": "NodeJS",
+    "framework": "Node.js",
     "logo": "https://cdn.scalingo.com/homepage/assets/technologies/svg/php-b92fb71dac9e50083f27b0b602441247.svg",
     "app_url": "https://sample-php-nodejs.scalingo.io",
     "github_url": "https://github.com/Scalingo/sample-php-nodejs"
